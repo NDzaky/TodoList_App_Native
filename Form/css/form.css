@@ -1,0 +1,107 @@
+/* mengatur default */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: bolder;
+}
+/* styling bagian utama */
+body{
+    background-color: rgb(196, 207, 182);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* style bagian form */
+.form_area{
+    background-color: rgb(142, 150, 138);
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px black;
+}.form_area p{
+    margin: 5px 0px;
+}.form_area a{
+    text-decoration: none;
+    color: white;
+}.form_area a:hover{
+    color: rgb(120, 227, 241);
+}
+form{
+    margin: 10px 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input,textarea,select{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 3px;
+    border: none;
+    box-shadow: 3px 3px 1px black;
+    margin-bottom: 5px;
+}
+textarea{
+    height: 150px;
+}
+.pass_area{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.btn_pass{
+    padding: 5px 2px;
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}.btn_pass:hover{
+    background-color: rgb(116, 116, 37);
+}
+form button{
+    background-color: rgb(37, 102, 175);
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 1px black;
+    transition: all ease 0.5s;
+}form button:hover{
+    background-color: rgb(7, 58, 117);
+}
+
+
+/* bagian untuk styling pesan validasi */
+.error{
+    margin: 15px 15px;
+    position: fixed;
+}
+.alert{
+    background-color: rgba(255, 73, 73, 0.322);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.alert .btn_close{
+    padding: 10px 10px;
+    background-color: rgb(109, 0, 0);
+    border: none;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    color: white;
+}.alert .btn_close:hover{
+    padding: 10px 10px;
+    background-color: rgb(243, 49, 49);
+    border: none;
+    border-radius: 5px;
+}

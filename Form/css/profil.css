@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(196, 207, 182);
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .heading{
+    margin-bottom: 15px;
+}
+.card{
+    border-radius: 15px;
+    padding: 15px 15px;
+    background-color: rgb(223, 223, 223);
+    width: 30%;
+    box-shadow: 5px 5px 2px black;
+}
+p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.aksi{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}.aksi a{
+    text-decoration: none;
+    padding: 8px 5px;
+    background-color: rgb(253, 105, 105);
+    color: white;
+    transition: all ease 0.3s;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+}.aksi a:hover{
+    background-color: rgb(255, 0, 0);
+}.aksi .kembali{
+    text-decoration: none;
+    padding: 8px 5px;
+    background-color: rgb(158, 255, 103);
+    color: rgb(0, 0, 0);
+    transition: all ease 0.3s;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+    font-weight: bolder;
+}.aksi .kembali:hover{
+    background-color: rgb(27, 71, 14);
+}

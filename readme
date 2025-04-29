@@ -1,0 +1,16 @@
+Harap Import Database terlebih dahulu
+file .sql ada di folder Database
+konfigurasi ada di koneksi.php
+
+Tools yang saya gunakan:
+1. Local server : XAMPP(apache)
+2. Database : XAMPP(MySql)
+3. Text editor : Visual Studio Code
+4. Program : PHP,JavaScript,SQL,HTML,CSS
+5. Browser : chrome
+
+JIKA TERDAPAT ERROR SAAT MELAKUKAN CREATE TODO,PASTIKAN
+TIPE DATA 'isFavorite' ADALAH BOOLEAN DENGAN DEFAULT 'False'.
+
+INI TERJADI SAAT SAAT EKSPOR, TIPE DATA BOOLEAN OTOMATIS DIUBAH MENJADI INT
+DAN KEHILANGAN NILAI DEFAULT
